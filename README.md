@@ -63,7 +63,7 @@ IMAGE_COMPRESSION_QUALITY=100
 4. 运行本地服务器：
 
 ```sh
-node server.js
+node server_bak.js
 ```
 
 服务器启动后，打开浏览器访问 http://localhost:3000 即可访问网站。
@@ -96,7 +96,7 @@ node server.js
 
 ```
 Gallery-Portfolio/
-├── server.js
+├── server_bak.js
 ├── public/
 │ ├── index.html
 │ ├── styles.css
@@ -110,9 +110,9 @@ Gallery-Portfolio/
 ├── package.json
 ```
 
-### `server.js`
+### `server_bak.js`
 
-`server.js` 是项目的后端服务器代码，负责处理图片的获取、缩略图生成以及 EXIF 信息的读取。
+`server_bak.js` 是项目的后端服务器代码，负责处理图片的获取、缩略图生成以及 EXIF 信息的读取。
 
 - 依赖库：
   - `express`：用于搭建 Web 服务器
